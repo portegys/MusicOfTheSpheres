@@ -1,0 +1,11 @@
+# Sound and color palette data file for Music of the Spheres
+# Entry format:
+# <Sound file> <R-G-B color (0-255)> <Applies to strings? (y|n)> <Applies to spheres? (y|n)>
+tonyDOlo.au	255-0-0		y	y
+tonyRE.au	255-200-0	y	y
+tonyME.au	255-255-0	y	y
+tonyFA.au	0-255-0		y	y
+tonySO.au	0-0-255		y	y
+tonyLA.au	255-0-255	y	y
+tonyTE.au	100-50-200	y	y
+tonyDOhi.au	100-100-50	y	y

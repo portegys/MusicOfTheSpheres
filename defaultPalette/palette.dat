@@ -1,0 +1,10 @@
+# Sound and color palette data file for Music of the Spheres
+# Entry format:
+# <Sound file> <R-G-B color (0-255)> <Applies to strings? (y|n)> <Applies to spheres? (y|n)>
+Ered.au		255-0-0		y	y
+Aorange.au	255-200-0	y	y
+Dyellow.au	255-255-0	y	y
+Ggreen.au	0-255-0		y	y
+Bblue.au	0-0-255		y	y
+Emagenta.au	255-0-255	y	y
+picardborg.au	100-50-200	y	y

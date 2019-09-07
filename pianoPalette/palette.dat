@@ -1,0 +1,50 @@
+# Sound and color palette data file for Music of the Spheres.
+# Entry format:
+# <Sound file> <R-G-B color (0-255)> <Applies to strings? (y|n)> <Applies to spheres? (y|n)>
+
+# A bigger piano.
+
+# Low octave:
+C0.au	204-0-0		y	y
+Cs0.au	204-76-0	y	y
+D0.au	204-152-0	y	y
+Ds0.au	153-204-0	y	y
+E0.au	51-204-0	y	y
+F0.au	0-204-101	y	y
+Fs0.au	0-204-178	y	y
+G0.au	0-127-204	y	y
+Gs0.au	0-24-204	y	y
+A0.au	50-0-204	y	y
+As0.au	127-0-204	y	y
+B0.au	204-0-204	y	y
+
+# Middle octave:
+C1.au	229-0-0		y	y
+Cs1.au	229-85-0	y	y
+D1.au	229-171-0	y	y
+Ds1.au	172-229-0	y	y
+E1.au	57-229-0	y	y
+F1.au	0-229-114	y	y
+Fs1.au	0-229-200	y	y
+G1.au	0-143-229	y	y
+Gs1.au	0-27-229	y	y
+A1.au	56-0-229	y	y
+As1.au	143-0-229	y	y
+B1.au	229-0-229	y	y
+
+# High octave:
+C2.au	255-0-0		y	y
+Cs2.au	255-95-0	y	y
+D2.au	255-191-0	y	y
+Ds2.au	192-255-0	y	y
+E2.au	64-255-0	y	y
+F2.au	0-255-127	y	y
+Fs2.au	0-255-223	y	y
+G2.au	0-159-255	y	y
+Gs2.au	0-31-255	y	y
+A2.au	63-0-255	y	y
+As2.au	159-0-255	y	y
+B2.au	255-0-255	y	y
+
+# Last key
+C3.au	255-0-159	y	y

@@ -1,8 +1,6 @@
-# Sound and color palette data file for Music of the Spheres.
+# Sound and color palette data file for Music of the Spheres
 # Entry format:
 # <Sound file> <R-G-B color (0-255)> <Applies to strings? (y|n)> <Applies to spheres? (y|n)>
-
-# A bigger piano.
 
 # Low octave:
 C0.au	204-0-0		y	y

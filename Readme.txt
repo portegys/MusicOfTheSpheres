@@ -11,23 +11,12 @@ Contains:
 3. Sample music in repository directory.
 
 To build:
-
-CLASSPATH=<current directory path>:$CLASSPATH
-cd src
-javac Music.java Palette.java
-mv *.class ..
-javac Player.java
-mv *.class ..
-javac Composer.java
-mv *.class ..
-cd ..
+javac -d . src/*.java
 
 To test Player applet:
-
 appletviewer index.html
 
 To test Composer application:
-
 1. java Composer
 2. Select File tab.
 3. Load repository/sample.dat music.

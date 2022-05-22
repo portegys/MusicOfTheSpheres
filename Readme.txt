@@ -11,13 +11,15 @@ Contains:
 3. Sample music in repository directory.
 
 To build:
-javac -d . src/*.java
+build.sh
 
-To test Player applet:
+To test Player:
+java -jar Player.jar
+or
 appletviewer index.html
 
 To test Composer application:
-1. java Composer
+1. java -jar Composer.jar
 2. Select File tab.
 3. Load repository/sample.dat music.
 4. Select Play tab.

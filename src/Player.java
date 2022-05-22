@@ -152,14 +152,11 @@ public class Player extends Applet implements Runnable
             musicList = null;
          }
       }
-      if (musicList != null)
+      if (musicList == null)
       {
-         listMusic();
+         musicList = "musicList";
       }
-      else
-      {
-         musicList = "";
-      }
+      listMusic();
 
       // Get base URL.
       baseURL = null;
@@ -568,7 +565,7 @@ public class Player extends Applet implements Runnable
    public static final String Usage =
       "Usage:\n" +
       "    java Player\n" +
-      "        -MusicList <file name> (selectable music)\n" +
+      "        [-MusicList <file name> (selectable music, default=\"musicList\")]\n" +
       "        [-Music <file name> (initial music)]";
 
    // Main.
@@ -612,11 +609,6 @@ public class Player extends Applet implements Runnable
          }
          System.err.println("Invalid option: " + args[i]);
          System.err.println(Usage);
-         System.exit(1);
-      }
-      if (player.musicList == null)
-      {
-         System.out.println(Usage);
          System.exit(1);
       }
 
